@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Bixet';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Bixetアプリに遷移するためのサイトです。';
+    : 'Bixetアプリに遷移';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
